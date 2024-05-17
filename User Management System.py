@@ -613,3 +613,35 @@ users = {
 #        print("Email:", user_info["email"])
 #        print("Location:", user_info["location"])
 #        print()
+
+
+# Add a new user
+#def generate_email(first_name, last_name):
+#    email = first_name[0].lower() + last_name.lower() + "@pyt.com"
+
+    # Make sure email is unique
+#    count = 1
+#    while email in [user_info["email"] for user_info in users.values()]:
+#        email = first_name[0].lower() + last_name.lower() + str(count) + "@pyt.com"
+#        count += 1
+
+#    return email
+
+# Ask the user for the staff members first name and last name
+#first_name = input("Enter the staff members first name: ")
+#last_name = input("Enter the staff members last name: ")
+#title = input("Enter the staff members title: ")
+
+# Generate the email
+#email = generate_email(first_name, last_name)
+#print("Email:", email)
+
+# Add the user to the users dictionary
+#user_id = max(users.keys()) + 1
+#users[user_id] = {
+#    "title": title,
+#    "first_name": first_name,
+#    "last_name": last_name,
+#    "email": email,
+#    "location": "Mukwonago"
+#}
